@@ -2,7 +2,7 @@ import { HttpHeaders } from '@angular/common/http';
 
 const PROTOCOL = "https";//"https";//const PROTOCOL = "https";
 const PORT = 443;//const PORT = 443;
-const BASE_URL = "iisrestfacturascore.azurewebsites.net"; //const BASE_URL = "iisrestfacturascore.azurewebsites.net";
+const BASE_URL = "yachaywebservices.com"; //const BASE_URL = "iisrestfacturascore.azurewebsites.net";
 
 export class ConfigurationDataSource {
 
