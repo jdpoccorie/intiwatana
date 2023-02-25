@@ -29,6 +29,12 @@
                                     <label for="message">{{ 'home.form_mensaje' | translate }}</label>
                                     <textarea type="text" name="widget-contact-form-message" required rows="5" class="form-control required" placeholder="Enter your Message"></textarea>
                                 </div>
+                                
+
+                                <img [src]="capcha64" class="bmd-img" />
+<br>
+
+
                                 <button class="boton-1" type="submit" id="form-submit"><i class="fa fa-paper-plane"></i>&nbsp;{{ 'home.form_enviar' | translate }}</button>
                             </form>
                         </div>

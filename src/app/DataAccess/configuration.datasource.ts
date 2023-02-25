@@ -33,7 +33,8 @@ export class ConfigurationDataSource {
     getConfHeaders(): HttpHeaders {
         var headers = new HttpHeaders();
         headers = headers.set('IdUser', `${this.user_id}`);
-        headers = headers.set('IdEmpresa', 'SG90ZWxJbnRpd2F0YW5hREI=');
+        // headers = headers.set('IdEmpresa', 'SG90ZWxJbnRpd2F0YW5hREI=');
+        headers = headers.set('IdEmpresa', 'WWFjaGF5REI=');
         headers = headers.set('Authorization', `Basic ${this.user_token}:${this.pws_token}`);
         return headers;
     }
